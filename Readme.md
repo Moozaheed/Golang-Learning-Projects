@@ -18,8 +18,8 @@ Before running any project, ensure you have:
 
 1. **Basic Projects**
 
-    - [Go Server]()
-    - [Go CURD]()
+    - [Go Server](https://github.com/Moozaheed/Golang-Learning-Projects/tree/main/go-server)
+    - [Go CURD](https://github.com/Moozaheed/Golang-Learning-Projects/tree/main/go-curd)
     
 ## 🚀 Getting Started
 
