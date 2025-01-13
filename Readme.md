@@ -20,6 +20,7 @@ Before running any project, ensure you have:
 
     - [Go Server](https://github.com/Moozaheed/Golang-Learning-Projects/tree/main/go-server)
     - [Go CURD](https://github.com/Moozaheed/Golang-Learning-Projects/tree/main/go-curd)
+    - [Domain Checker](https://github.com/moozaheed/Golang-Learning-Projects/domain-checker.git)
     
 ## 🚀 Getting Started
 
