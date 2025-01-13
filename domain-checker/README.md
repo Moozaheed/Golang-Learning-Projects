@@ -38,7 +38,7 @@ This Go program checks whether a domain has the necessary DNS records, including
     Enter the domain name:
     ```
 
-2. Enter the domain you want to check (e.g., `example.com`).
+2. Enter the domain you want to check (e.g., `mailchimp.com`).
 
 3. The program will check the domain for the following DNS records:
     - **MX (Mail Exchange)**: Checks whether the domain has an MX record (used for mail routing).
@@ -48,29 +48,15 @@ This Go program checks whether a domain has the necessary DNS records, including
 4. After checking, the program will print the results in the following format:
 
     ```
-    Domain: example.com
+    Domain: mailchimp.com
     Has MX record: true
     Has SPF record: true
-    SPF record: v=spf1 include:_spf.example.com ~all
-    Has DMARC record: true
-    DMARC record: v=DMARC1; p=reject; rua=mailto:dmarc-reports@example.com
+    SPF record: v=spf1 ip4:205.201.128.0/20 ip4:198.2.128.0/18 ip4:148.105.0.0/16 ip4:129.145.74.12 include:_spf.google.com include:mailsenders.netsuite.com include:_spf2.intuit.com include:_spf.qualtrics.com ip4:199.33.145.1 ip4:199.33.145.32 ip4:35.176.132.251 ip4:52.60.115.116 ~all
+    Has DMARC record: false
+    DMARC record: 
     -------------------------------------------------
     ```
 
-## Example Output:
-
-```
-Enter the domain name: 
-example.com
-Domain: example.com
-Has MX record: true
-Has SPF record: true
-SPF record: v=spf1 include:_spf.example.com ~all
-Has DMARC record: true
-DMARC record: v=DMARC1; p=reject; rua=mailto:dmarc-reports@example.com
--------------------------------------------------
-
-```
 
 ## Error Handling:
 - If an error occurs while looking up DNS records, the program logs the error and provides a message indicating the failure to fetch records.
@@ -80,5 +66,3 @@ DMARC record: v=DMARC1; p=reject; rua=mailto:dmarc-reports@example.com
   Error: lookup example.com: no such host
   ```
 
-## License:
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
