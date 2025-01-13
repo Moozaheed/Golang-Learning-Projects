@@ -1,0 +1,58 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of the build process
+bin/
+build/
+*.out
+
+# Dependency directories (vendor/)
+vendor/
+
+# Go modules
+go.sum
+go.work
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+.DS_Store
+
+# Coverage reports
+*.cover
+*.cov
+
+# Local Go workspace file
+go.work
+
+# Specific OS files
+Thumbs.db
+desktop.ini
+
+# Temporary files created by the macOS Finder
+._*
+
+# GoLand-specific files
+.goland/
+goland-logs/
+
+# Generated files from Swagger or other tools
+gen/
+
+# Build artifacts from GoReleaser
+dist/
