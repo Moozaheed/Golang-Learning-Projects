@@ -25,8 +25,8 @@ Follow the steps below to set up and run the project locally or with Docker.
 
 1. Clone the repository:
    ```bash
-   git clone <YOUR_REPO_URL>
-   cd <YOUR_REPO_NAME>
+   git clone https://github.com/Moozaheed/Golang-Learning-Projects/tree/main/docker-with-go
+   cd docker-with-go
    ```
 
 2. Build and run the Go application:
@@ -114,6 +114,6 @@ curl -X POST http://localhost:8080/add-task -H "Content-Type: application/json" 
    docker run -p 8080:8080 -it docker-with-go
    ```
 
----
+
 
 
